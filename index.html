@@ -9,11 +9,11 @@
 <meta property="og:title" content="EME Medicina Estética y Láser · Victoria">
 <meta property="og:description" content="Rejuvenecimiento facial y corporal con criterio médico. Reservá tu consulta por WhatsApp.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://demo-eme.vercel.app/">
-<meta property="og:image" content="https://demo-eme.vercel.app/og.png">
+<meta property="og:url" content="https://eme-demo.vercel.app/">
+<meta property="og:image" content="https://eme-demo.vercel.app/og.png">
 <meta property="og:locale" content="es_AR">
 <meta property="og:site_name" content="EME Medicina Estética y Láser">
-<link rel="canonical" href="https://demo-eme.vercel.app/">
+<link rel="canonical" href="https://eme-demo.vercel.app/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="geo.region" content="AR-B">
 <meta name="geo.placename" content="Victoria, San Fernando">
@@ -41,8 +41,8 @@ img{max-width:100%;display:block}
 .wrap{max-width:var(--max);margin:0 auto;padding:0 1.5rem}
 section{padding:6.5rem 0}
 section[id],header[id]{scroll-margin-top:90px}
-.skip{position:absolute;left:-9999px;top:0;z-index:100;background:var(--accent);color:#fff;padding:.7rem 1.1rem;border-radius:0 0 10px 0;font-weight:600}
-.skip:focus{left:0}
+.skip{position:absolute;left:0;top:0;transform:translateY(-200%);z-index:100;background:var(--accent);color:#fff;padding:.7rem 1.1rem;border-radius:0 0 10px 0;font-weight:600;transition:transform .2s}
+.skip:focus{transform:translateY(0)}
 .eyebrow{display:inline-block;text-transform:uppercase;letter-spacing:.18em;font-size:.7rem;font-weight:700;color:var(--accent-d);background:var(--accent-soft);padding:.4rem .85rem;border-radius:7px}
 .lede{font-size:1.08rem;color:var(--muted);max-width:60ch}
 .reveal{will-change:transform,opacity}
@@ -174,6 +174,7 @@ nav.scrolled .nav-shell{box-shadow:0 1px 0 rgba(255,255,255,.92) inset,0 32px 64
 .pcard .mn{color:var(--muted);font-size:.82rem;margin-top:.3rem}
 @media(max-width:760px){.team .grid{grid-template-columns:1fr}}
 
+.rev{overflow:hidden}
 .rev .rev-head{display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:1rem;margin-bottom:2.6rem}
 .rev-head h2{font-size:clamp(2rem,4.6vw,2.9rem)}
 .rev-score{display:flex;align-items:center;gap:.9rem}
@@ -227,6 +228,7 @@ nav.scrolled .nav-shell{box-shadow:0 1px 0 rgba(255,255,255,.92) inset,0 32px 64
 
 footer{background:var(--deep);color:#a9a6b6;padding:4rem 0 2rem}
 .foot{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:2rem}
+@media(max-width:760px){.foot{grid-template-columns:1fr;gap:2.2rem}}
 footer .logo{color:#fff}
 footer h4{color:#fff;font-family:'Sora';font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.8rem}
 footer p,footer li{font-size:.92rem;margin:.35rem 0;list-style:none}
@@ -480,7 +482,7 @@ footer a:hover{color:#fff}
 </a>
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":["MedicalClinic","HealthAndBeautyBusiness"],"name":"EME Medicina Estética y Láser","url":"https://demo-eme.vercel.app/","image":"https://demo-eme.vercel.app/og.png","description":"Medicina estética y láser en Victoria, San Fernando: toxina botulínica, ácido hialurónico, rejuvenecimiento facial, tratamientos corporales, capilares y láser.","address":{"@type":"PostalAddress","streetAddress":"Av. Pres. Perón 2302","addressLocality":"Victoria","addressRegion":"Buenos Aires","postalCode":"1644","addressCountry":"AR"},"geo":{"@type":"GeoCoordinates","latitude":-34.4790,"longitude":-58.5360},"areaServed":["Victoria","San Fernando","Zona Norte"],"telephone":"+541155748682","priceRange":"$$","sameAs":["https://instagram.com/eme.medicinaestetica"],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.7","reviewCount":"39"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"20:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"09:00","closes":"14:00"}]}
+{"@context":"https://schema.org","@type":["MedicalClinic","HealthAndBeautyBusiness"],"name":"EME Medicina Estética y Láser","url":"https://eme-demo.vercel.app/","image":"https://eme-demo.vercel.app/og.png","description":"Medicina estética y láser en Victoria, San Fernando: toxina botulínica, ácido hialurónico, rejuvenecimiento facial, tratamientos corporales, capilares y láser.","address":{"@type":"PostalAddress","streetAddress":"Av. Pres. Perón 2302","addressLocality":"Victoria","addressRegion":"Buenos Aires","postalCode":"1644","addressCountry":"AR"},"geo":{"@type":"GeoCoordinates","latitude":-34.4790,"longitude":-58.5360},"areaServed":["Victoria","San Fernando","Zona Norte"],"telephone":"+541155748682","priceRange":"$$","sameAs":["https://instagram.com/eme.medicinaestetica"],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.7","reviewCount":"39"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"20:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"09:00","closes":"14:00"}]}
 </script>
 
 <script type="application/ld+json">
